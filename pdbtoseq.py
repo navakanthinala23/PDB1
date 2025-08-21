@@ -3,7 +3,8 @@ from Bio.PDB import PDBParser, PPBuilder
 
 # Load PDB file
 parser = PDBParser(QUIET=True)
-structure = parser.get_structure("protein", "1a3n.pdb")
+x=input("Enter protein number")
+structure = parser.get_structure("protein", x+".pdb")
 
 # Extract sequence from structure
 ppb = PPBuilder()
