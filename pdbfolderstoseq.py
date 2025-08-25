@@ -6,7 +6,7 @@ from Bio.SeqRecord import SeqRecord
 from Bio import SeqIO
 
 # === CONFIGURATION ===
-main_folder = "/path/to/main_database"   # change this to your database path
+main_folder = "V2016"   # change this to your database path
 output_base = "/path/to/output_sequences"  # where sequences will be stored
 
 parser = PDBParser(QUIET=True)
